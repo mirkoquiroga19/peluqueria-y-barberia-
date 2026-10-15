@@ -1,0 +1,46 @@
+
+
+
+.navbar-nav .nav-link.active          {
+color: #7b4b83;
+float: right;
+
+}
+
+
+.contenedor {
+    background-color: #171717;
+    color: #FFFFFF;
+   
+
+}
+
+.contenedor-fluid {
+    background-color: #171717;
+
+}
+
+
+#turnos {
+    background-color: #FFFFFF;
+    color: #171717;
+}
+
+#turnos h2 {
+    color: #7B4B83;
+}
+#turnos .form-select:focus {
+    border-color: #7B4B83;
+    box-shadow: 0 0 5px #7B4B83;
+}
+
+.boton-turno {
+    background-color: #D4AF65;
+    color: #171717;
+    font-weight: 600;
+}
+
+.boton-turno:hover {
+    background-color: #7B4B83;
+    color: #FFFFFF;
+}
