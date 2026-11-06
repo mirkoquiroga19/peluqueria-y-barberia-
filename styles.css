@@ -1,0 +1,630 @@
+/* ================= GLOBAL & BODY ================= */
+body {
+  background-color: #FFFFFF;
+  color: #171717;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+  background-color: #FFFFFF !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-nav .nav-link {
+  color: #171717;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #7B4B83 !important;
+  font-weight: 600;
+}
+
+/* ================= CARRUSEL & SLIDER ================= */
+#carruselInicio {
+  overflow: hidden;
+}
+
+.carousel-item img,
+.d-block {
+  display: block;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-caption {
+  background-color: rgba(23, 23, 23, 0.75);
+  padding: 15px 25px;
+  border-radius: 8px;
+  width: fit-content;
+  max-width: 85%;
+  margin: 0 auto 20px auto;
+  backdrop-filter: blur(4px);
+}
+
+.txt-slider {
+  color: #D4AF65;
+  font-weight: 700;
+  font-size: calc(1.3rem + 1.2vw);
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ================= CONTENEDORES GENERALES ================= */
+.my-4a, .contenedor-fluid {
+  background-color: #171717;
+}
+
+.contenedor {
+  background-color: #171717;
+  color: #FFFFFF;
+}
+
+.fs-1 {
+  color: #D4AF65 !important;
+  font-family: "Abril Fatface", serif;
+}
+
+.fs-5.text-muted {
+  color: #FFFFFF !important;
+  line-height: 1.6;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ================= SECCIÓN SERVICIOS ================= */
+#servicios h2 {
+  color: #7B4B83;
+  font-weight: 700;
+  font-family: "Abril Fatface", serif;
+}
+
+#servicios .card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#servicios .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+#servicios .card-body {
+  background-color: #D4AF65;
+  color: #171717;
+}
+
+#servicios .card-title {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+#servicios .card-text {
+  color: #2c2c2c;
+  font-family: "Montserrat", sans-serif;
+}
+
+.my-4b {
+  background-color: #D4AF65;
+}
+
+.my-4b h5, .my-4b p {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ================= BOTONES GENERALES ================= */
+.btn-primary {
+  background-color: #7B4B83;
+  border-color: #7B4B83;
+  color: #FFFFFF;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #171717;
+  border-color: #171717;
+  color: #D4AF65;
+}
+
+/* ================= TARJETAS GENERALES Y SUCURSALES ================= */
+.card {
+  border: 2px solid #D4AF65;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title1, .card-title {
+  
+  color: #7B4B83;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  color: #171717;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.card-footer {
+  background-color: #171717;
+  color: #FFFFFF;
+  border-top: 2px solid #D4AF65;
+  padding: 12px;
+}
+
+.card-footer .bi-whatsapp {
+  color: #D4AF65;
+  font-size: 1.1rem;
+}
+
+.titulo-sucursales {
+  background-color: #D4AF65;
+  color: #171717;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ================= MAPAS Y MARCADORES ================= */
+.mapa-contenedor {
+  position: relative;
+}
+
+.marcador-mapa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  color: #7B4B83;
+  font-size: 40px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* ================= CONTACTO Y FORMULARIOS ================= */
+main h1 {
+  color: #7B4B83;
+  font-weight: bold;
+  font-family: "Abril Fatface", serif;
+}
+
+main form + h2,
+main h2 {
+  color: #171717;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.titulo-consulta {
+  color: #7B4B83;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.titulo-contacto {
+  color: #D4AF65;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#formContacto .form-control {
+  border: 1px solid #D4AF65;
+  background-color: #FFFFFF;
+  color: #171717;
+  transition: all 0.3s ease;
+}
+
+#formContacto .form-control:focus {
+  border-color: #7B4B83;
+  box-shadow: 0 0 0 0.2rem rgba(123, 75, 131, 0.25);
+  background-color: #FFFFFF;
+  color: #7B4B83;
+}
+
+#formContacto .form-control::placeholder {
+  color: #7B4B83;
+}
+
+.contenedor-consulta {
+  background-color: #7B4B83;
+  color: #FFFFFF;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.contenedor-consulta h2 {
+  color: #FFFFFF !important;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contenedor-sucursales {
+  background-color: #D4AF65;
+  color: #171717;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* ================= SECCIÓN TURNOS ================= */
+#turnos {
+  background-color: #FFFFFF;
+  color: #171717;
+}
+
+#turnos h2 {
+  color: #7B4B83;
+}
+
+#turnos .form-select:focus {
+  border-color: #7B4B83;
+  box-shadow: 0 0 5px #7B4B83;
+}
+
+.boton-turno {
+  background-color: #D4AF65;
+  color: #171717;
+  font-weight: 600;
+}
+
+.boton-turno:hover {
+  background-color: #7B4B83;
+  color: #FFFFFF;
+}
+
+.boton-turno1 {
+  background-color: #ffffff !important;
+  color: #7B4B83 !important;
+  font-weight: 600 !important;
+  font-family: "Montserrat", sans-serif !important;
+  padding: 0.8rem 2.5rem !important;
+  border-radius: 30px !important;
+  border: none !important;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(123, 75, 131, 0.3);
+}
+
+.boton-turno1:hover {
+  background-color: #171717 !important;
+  color: #D4AF65 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(212, 175, 101, 0.4);
+}
+
+.boton-turno1:active {
+  transform: translateY(0);
+}
+
+/* ================= SECCIÓN PRODUCTOS ================= */
+.titulo-productos {
+  color: #7B4B83;
+  font-weight: bold;
+}
+
+.texto-productos {
+  color: #171717;
+}
+
+.tarjeta-producto {
+  border: 2px solid #D4AF65;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  transition: transform 0.3s ease;
+}
+
+.tarjeta-producto:hover {
+  transform: translateY(-5px);
+}
+
+.imagen-producto {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+  padding: 15px;
+  background-color: #FFFFFF;
+}
+
+.tarjeta-producto .card-title {
+  color: #7B4B83;
+  font-weight: bold;
+}
+
+.tarjeta-producto .card-text {
+  color: #171717;
+}
+
+.precio-producto {
+  color: #7B4B83;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.tarjeta-producto .card-footer {
+  background-color: #171717;
+  border-top: 2px solid #D4AF65;
+  padding: 12px;
+}
+
+ .boton-producto  {
+  background-color: #D4AF65;
+  color: #171717;
+  font-weight: bold;
+  border: none;
+}
+
+.boton-producto:hover {
+  background-color: #7B4B83;
+  color: #FFFFFF;
+}
+
+      
+
+/* ================= MODAL CORREO ================= */
+#modalCorreo .modal-content {
+  border: 2px solid #D4AF65;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  color: #171717;
+}
+
+#modalCorreo .modal-header {
+  background-color: #171717;
+  color: #FFFFFF;
+  border-bottom: 2px solid #D4AF65;
+  padding: 1.25rem 1.5rem;
+}
+
+#modalCorreo .modal-title {
+  color: #D4AF65;
+  font-weight: bold;
+}
+
+#modalCorreo .modal-body {
+  background-color: #FFFFFF;
+  color: #171717;
+  padding: 2.5rem 1.5rem;
+  font-size: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+#modalCorreo .icono-correo {
+  font-size: 3rem;
+  color: #7B4B83;
+  margin-bottom: 10px;
+}
+
+#modalCorreo .modal-body h5 {
+  color: #7B4B83;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#modalCorreo .correo-glowup {
+  color: #7B4B83;
+  font-weight: bold;
+  overflow-wrap: anywhere;
+}
+
+#modalCorreo .modal-footer {
+  background-color: #D4AF65;
+  border-top: 1px solid #D4AF65;
+  justify-content: center;
+  padding: 1rem 1.5rem;
+}
+
+#modalCorreo .modal-footer .btn {
+  font-weight: 600;
+  font-family: "Montserrat", semibold;
+  padding: 0.6rem 2rem;
+  border-radius: 30px;
+  border: none;
+  color: #D4AF65;
+  background-color: #FFFFFF;
+}
+
+#modalCorreo .modal-footer .btn:hover  {
+background-color: #7B4B83;
+color: #FFFFFF;
+
+}
+
+.boton-turno2 {
+  background-color: #7B4B83;
+  color: #ffffff;
+}
+
+#modalCorreo .btn-close {
+  filter: invert(1);
+}
+
+/* ================= MODO OSCURO AUTOMÁTICO (PRODUCTOS) ================= */
+body:has(.tarjeta-producto) {
+  background-color: #171717;
+  color: #FFFFFF;
+}
+
+body:has(.tarjeta-producto) main {
+  background-color: #171717;
+}
+
+body:has(.tarjeta-producto) .texto-productos {
+  color: #FFFFFF;
+}
+
+body:has(.tarjeta-producto) .tarjeta-producto {
+  background-color: #292629;
+  border: 2px solid #D4AF65;
+}
+
+body:has(.tarjeta-producto) .tarjeta-producto .card-text {
+  color: #FFFFFF;
+}
+
+body:has(.tarjeta-producto) .tarjeta-producto .card-title {
+  color: #D4AF65;
+}
+
+body:has(.tarjeta-producto) .imagen-producto {
+  background-color: #292629;
+}
+
+
+
+/* ================= MODALES DE SERVICIOS (AISLADOS) ================= */
+.modal-servicios-content {
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 2px solid #D4AF65;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  color: #171717;
+}
+
+.modal-servicios-content .modal-header {
+  background-color: #171717;
+  color: #FFFFFF;
+  border-bottom: 2px solid #D4AF65;
+  padding: 1.25rem 1.5rem;
+}
+
+.modal-servicios-content .modal-title {
+  color: #D4AF65;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.modal-servicios-content .btn-close {
+  filter: invert(1); 
+}
+
+.modal-servicios-content .modal-body {
+  padding: 2.5rem 1.5rem;
+  font-size: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+  color: #171717;
+  background-color: #FFFFFF;
+}
+
+.modal-servicios-content .modal-body img {
+  max-height: 220px;
+  object-fit: cover;
+  border: 2px solid #D4AF65;
+}
+
+.modal-servicios-content .modal-footer {
+  border-top: 1px solid #D4AF65;
+  justify-content: center;
+  padding: 1rem 1.5rem;
+  background-color: #D4AF65;
+}
+
+.modal-servicios-content .modal-footer .btn-secondary,
+.modal-servicios-content .modal-footer .btn {
+  background-color: #171717;
+  color: #D4AF65;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.6rem 2rem;
+  border-radius: 30px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.modal-servicios-content .modal-footer .btn-secondary:hover,
+.modal-servicios-content .modal-footer .btn:hover {
+  background-color: #7B4B83;
+  color: #FFFFFF;
+}
+
+
+
+
+
+/* ================= ESTILOS PARA EL MODAL DE TU FORMULARIO/TURNO ================= */
+#modalContacto .modal-content {
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: 2px solid #D4AF65;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    color: #171717;
+}
+
+#modalContacto .modal-header {
+    background-color: #171717;
+    color: #FFFFFF;
+    border-bottom: 2px solid #D4AF65;
+    padding: 1.25rem 1.5rem;
+}
+
+#modalContacto .modal-title {
+    color: #D4AF65;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+#modalContacto .modal-header .btn-close {
+    filter: invert(1); 
+}
+
+#modalContacto .modal-body {
+    padding: 2.5rem 1.5rem;
+    font-size: 1.1rem;
+    font-family: "Montserrat", sans-serif;
+    color: #171717;
+    background-color: #FFFFFF;
+}
+
+#modalContacto .modal-footer {
+    border-top: 1px solid #D4AF65;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    background-color: #D4AF65;
+}
+
+#modalContacto .modal-footer .btn {
+    background-color: #7B4B83;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    padding: 0.6rem 2rem;
+    border-radius: 30px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+#modalContacto .modal-footer .btn:hover {
+    background-color: #171717;
+    color: #D4AF65;
+}
