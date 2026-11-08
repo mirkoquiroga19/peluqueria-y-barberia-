@@ -51,7 +51,7 @@ footer {
 
 
 
-/* --- BARRA DE NAVEGACIÓN ESTABLE (FORZADA) --- */
+
 .navbar.navbar-expand-lg {
   background-color: #FFFFFF !important;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08) !important;
@@ -68,7 +68,7 @@ footer {
 .navbar-expand-lg .navbar-nav .nav-link:hover,
 .navbar-expand-lg .navbar-nav .nav-link.active {
   color: #7B4B83 !important;
-  font-weight: 700 !important; /* Forzamos exactamente el mismo 700 para que no salte */
+  font-weight: 700 !important; 
 }
 
 
@@ -618,7 +618,7 @@ body:has(.tarjeta-producto) .imagen-producto {
 
 
 
-/* Importación de fuentes institucionales */
+
 
 
 
@@ -627,14 +627,14 @@ main {
     flex: 1;
 }
 
-/* Títulos principales */
+
 h1, h2, h3, .titulo-productos {
     font-family: "Abril Fatface", serif;
     font-weight: 400;
 }
 
 
-/* --- TÍTULO DE PRODUCTOS --- */
+
 .titulo-productos {
   color: #D4AF65;
   font-size: 48px;
@@ -647,10 +647,10 @@ h1, h2, h3, .titulo-productos {
   text-align: center;
 }
 
-/* --- TARJETAS DE PRODUCTOS --- */
+
 .tarjeta-producto {
-  background-color: #292629; /* Fondo interno de la tarjeta en oscuro */
-  border: 2px solid #D4AF65;   /* Borde dorado característico */
+  background-color: #292629;
+  border: 2px solid #D4AF65;  
   border-radius: 12px;
   overflow: hidden;
   transition: transform 0.3s ease;
@@ -674,7 +674,7 @@ h1, h2, h3, .titulo-productos {
   padding: 15px;
 }
 
-/* Título de cada producto */
+
 .card-title2 {
   background-color: #292629;
   color: #D4AF65 !important;
@@ -688,7 +688,7 @@ h1, h2, h3, .titulo-productos {
   font-size: 14px;
 }
 
-/* Precios dorados */
+
 .precio-producto {
   color: #D4AF65;
   font-size: 22px;
@@ -697,7 +697,7 @@ h1, h2, h3, .titulo-productos {
   margin-bottom: 0;
 }
 
-/* Pie de la tarjeta */
+
 .tarjeta-producto .card-footer {
   background-color: #171717;
   border-top: 2px solid #D4AF65;
@@ -705,7 +705,7 @@ h1, h2, h3, .titulo-productos {
   text-align: center;
 }
 
-/* Botón "Consultar" */
+
 .boton-producto {
   width: 196px;
   height: 36px;
@@ -724,7 +724,7 @@ h1, h2, h3, .titulo-productos {
   color: #FFFFFF;
 }
 
-/* --- MODAL DE CONSULTAS --- */
+
 .modal-content {
   border: 2px solid #D4AF65;
   border-radius: 16px;
@@ -767,7 +767,7 @@ h1, h2, h3, .titulo-productos {
   color: #D4AF65;
 }
 
-/* --- FOOTER --- */
+
 footer {
   background-color: #171717;
   border-top: 1px solid #333;
@@ -1016,3 +1016,35 @@ body#pagina-contactos .tarjeta-sucursal .card-footer {
     padding-right: 15px !important;
 }
 
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+.titulo-productos,
+.titulo-contacto,
+.txt-slider,
+.titulo-inicio {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+
+
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+}
