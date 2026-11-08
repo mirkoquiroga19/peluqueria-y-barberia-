@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GlowUp - Hair & Barber Studio</title> <!-- (Cambia el título según la página en la que estés) -->
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Google Fonts: Abril Fatface & Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Tus estilos personalizados (SIEMPRE AL FINAL para que tengan prioridad) -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- BARRA DE NAVEGACIÓN -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="logo1.png" width="50" height="50" alt="Logo GlowUp">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactos.html">Contactos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="container py-5">
+
+    <!-- Título de la sección -->
+    <div class="text-center mb-5">
+        <h1 class="titulo-productos">Nuestros Productos</h1>
+        <p class="texto-productos">
+            Cuida tu cabello con productos profesionales seleccionados por GlowUp.
+        </p>
+    </div>
+
+    <!-- Grilla de productos: col-lg-6 muestra exactamente 2 tarjetas por fila en computadoras -->
+    <div class="row g-4 justify-content-center">
+
+        <!-- Producto 1 -->
+        <div class="col-12 col-md-6 col-lg-6">
+            <div class="card tarjeta-producto h-100">
+                <img src="producto1.jpeg" class="card-img-top imagen-producto" alt="Shampoo Absolut Repair">
+                <div class="card-body">
+                    <h5 class="card-title card-title2">L'Oréal Professionnel Absolut Repair</h5>
+                    <p class="card-text">Shampoo profesional para cabello seco o dañado. Ayuda a mejorar la suavidad y el brillo.</p>
+                    <p class="precio-producto">$103.568</p>
+                </div>
+                <div class="card-footer">
+                   <button type="button" class="btn boton-producto" data-bs-toggle="modal" data-bs-target="#modalCorreo">
+                        Consultar 
+                   </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="col-12 col-md-6 col-lg-6">
+            <div class="card tarjeta-producto h-100">
+                <img src="producto2.jpeg" class="card-img-top imagen-producto" alt="Acondicionador Absolut Repair">
+                <div class="card-body">
+                    <h5 class="card-title card-title2">Acondicionador Absolut Repair</h5>
+                    <p class="card-text">Ayuda a desenredar el cabello y dejarlo más suave y manejable.</p>
+                    <p class="precio-producto">$74.999</p>
+                </div>
+                <div class="card-footer">
+                   <button type="button" class="btn boton-producto" data-bs-toggle="modal" data-bs-target="#modalCorreo">
+                        Consultar 
+                   </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="col-12 col-md-6 col-lg-6">
+            <div class="card tarjeta-producto h-100">
+                <img src="producto3.webp" class="card-img-top imagen-producto" alt="Máscara capilar Absolut Repair">
+                <div class="card-body">
+                    <h5 class="card-title card-title2">Máscara Absolut Repair</h5>
+                    <p class="card-text">Tratamiento capilar que ayuda a mejorar la textura y el brillo del cabello.</p>
+                    <p class="precio-producto">$95.130</p>
+                </div>
+                <div class="card-footer">
+                  <button type="button" class="btn boton-producto" data-bs-toggle="modal" data-bs-target="#modalCorreo">
+                        Consultar 
+                  </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Producto 4 -->
+        <div class="col-12 col-md-6 col-lg-6">
+            <div class="card tarjeta-producto h-100">
+                <img src="producto4.webp" class="card-img-top imagen-producto" alt="Crema capilar Absolut Repair">
+                <div class="card-body">
+                    <h5 class="card-title card-title2">Crema capilar Absolut Repair</h5>
+                    <p class="card-text">Producto sin enjuague que ayuda a controlar el cabello y facilita el peinado.</p>
+                    <p class="precio-producto">$77.500</p>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn boton-producto" data-bs-toggle="modal" data-bs-target="#modalCorreo">
+                        Consultar 
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Producto 5 -->
+        <div class="col-12 col-md-6 col-lg-6">
+            <div class="card tarjeta-producto h-100">
+                <img src="producto5.jpeg" class="card-img-top imagen-producto" alt="Óleo capilar Absolut Repair">
+                <div class="card-body">
+                    <h5 class="card-title card-title2">Óleo Absolut Repair</h5>
+                    <p class="card-text">Ayuda a suavizar el cabello y aportar brillo para un acabado más cuidado.</p>
+                    <p class="precio-producto">$70.000</p>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn boton-producto" data-bs-toggle="modal" data-bs-target="#modalCorreo">
+                        Consultar 
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Producto 6 -->
+        <div class="col-12 col-md-6 col-lg-6">
+            <div class="card tarjeta-producto h-100">
+                <img src="producto6.jpeg" class="card-img-top imagen-producto" alt="Shampoo Vitamino Color">
+                <div class="card-body">
+                    <h5 class="card-title card-title2">L'Oréal Professionnel Vitamino Color</h5>
+                    <p class="card-text">Shampoo para cabello teñido que ayuda a conservar el aspecto y el brillo del color.</p>
+                    <p class="precio-producto">$63.999</p>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn boton-producto" data-bs-toggle="modal" data-bs-target="#modalCorreo">
+                        Consultar 
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+  </main>
+
+  <!-- VENTANA MODAL DE CONSULTAS -->
+  <div class="modal fade" id="modalCorreo" tabindex="-1" aria-labelledby="tituloModalCorreo" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="tituloModalCorreo">Consultas sobre productos</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body text-center">
+                <i class="bi bi-bag-heart icono-correo fs-1 mb-3 text-warning"></i>
+                <h5>¿Te interesa este producto?</h5>
+                <p>¡Elegí tus productos favoritos de GlowUp!</p>
+                <p>Para consultar disponibilidad y realizar pedidos, escribinos a:</p>
+                <p class="correo-glowup fw-bold text-warning">
+                    GlowUpsjbarberiaypeluqueria@gmail.com
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn boton-producto" data-bs-dismiss="modal">
+                    Cerrar
+                </button>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- PIE DE PÁGINA (FOOTER) -->
+  <footer class="bg-dark text-light py-4 mt-auto">
+    <div class="container">
+      <div class="row align-items-center gy-3">
+        <div class="col-md-4 text-center text-md-start">
+          <div class="d-flex flex-column align-items-center align-items-md-start gap-2">
+            <a href="#" class="text-light text-decoration-none d-flex align-items-center gap-2">
+              <i class="bi bi-instagram fs-4"></i>
+              <span>GlowUp.sj</span>
+            </a>
+            <a href="#" class="text-light text-decoration-none d-flex align-items-center gap-2">
+              <i class="bi bi-facebook fs-4"></i>
+              <span>GlowUp.sj</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <p class="mb-0 text-light">
+            Dirección: Capital,<br>Av. Alem y Laprida Este (sucursal principal).
+          </p>
+        </div>
+        <div class="col-md-4 text-center text-md-end">
+          <img src="logo2.png" alt="GlowUp Logo" class="img-fluid rounded" style="max-width: 50px;">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

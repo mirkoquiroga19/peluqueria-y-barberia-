@@ -1,0 +1,1018 @@
+
+body {
+    background-color: #FFFFFF;
+    color: #171717;
+    
+}
+
+h1,
+h2,
+h3,
+.titulo-productos,
+.titulo-contacto,
+.txt-slider {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+
+.card-title, .card-title1, .card-title2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+
+button,
+.btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.texto-productos,
+.card-text,
+.precio-producto {
+    font-family: "Montserrat", sans-serif;
+}
+
+form,
+.form-label,
+.form-control,
+.modal-title,
+.modal-body,
+.modal-footer {
+    font-family: "Montserrat", sans-serif;
+}
+
+footer {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+/* --- BARRA DE NAVEGACIÓN ESTABLE (FORZADA) --- */
+.navbar.navbar-expand-lg {
+  background-color: #FFFFFF !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08) !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  color: #171717 !important;
+  transition: color 0.2s ease-in-out !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover,
+.navbar-expand-lg .navbar-nav .nav-link.active {
+  color: #7B4B83 !important;
+  font-weight: 700 !important; /* Forzamos exactamente el mismo 700 para que no salte */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#carruselInicio {
+  overflow: hidden;
+}
+
+.carousel-item img,
+.d-block {
+  display: block;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-caption {
+  background-color: rgba(23, 23, 23, 0.75);
+  padding: 15px 25px;
+  border-radius: 8px;
+  width: fit-content;
+  max-width: 85%;
+  margin: 0 auto 20px auto;
+  backdrop-filter: blur(4px);
+}
+
+.txt-slider {
+  color: #D4AF65;
+  font-weight: 700;
+  font-size: calc(1.3rem + 1.2vw);
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.my-4a, .contenedor-fluid {
+  background-color: #171717;
+}
+
+.contenedor {
+  background-color: #171717;
+  color: #FFFFFF;
+}
+
+.fs-1 {
+  color: #D4AF65 !important;
+}
+
+.fs-5.text-muted {
+  color: #FFFFFF !important;
+  line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#servicios h2 {
+  color: #7B4B83;
+}
+
+#servicios .card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#servicios .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+#servicios .card-body {
+  background-color: #D4AF65;
+  color: #171717;
+}
+
+#servicios .card-text {
+  color: #2c2c2c;
+}
+
+.my-4b {
+  background-color: #D4AF65;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-primary {
+  background-color: #7B4B83;
+  border-color: #7B4B83;
+  color: #FFFFFF;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #171717;
+  border-color: #171717;
+  color: #D4AF65;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+  border: 2px solid #D4AF65;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+ .card-title{
+  background-color: #D4AF65;
+  color: #7B4B83;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.card-title2 {
+   background-color: #292629;
+  color: #D4AF65 !important;
+  font-size: 16px !important;
+  margin-bottom: 5px !important;
+}
+
+.card-text {
+  color: #171717;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.card-footer {
+  background-color: #171717;
+  color: #FFFFFF;
+  border-top: 2px solid #D4AF65;
+  padding: 12px;
+}
+
+.card-footer .bi-whatsapp {
+  color: #D4AF65;
+  font-size: 1.1rem;
+}
+
+.titulo-sucursales {
+  background-color: #D4AF65;
+  color: #171717;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+main h1 {
+  color: #7B4B83;
+}
+
+main form + h2,
+main h2 {
+  color: #171717;
+}
+
+.titulo-consulta {
+  color: #7B4B83;
+}
+
+.titulo-contacto {
+  color: #D4AF65;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#formContacto .form-control {
+  border: 1px solid #D4AF65;
+  background-color: #FFFFFF;
+  color: #171717;
+  transition: all 0.3s ease;
+}
+
+#formContacto .form-control:focus {
+  border-color: #7B4B83;
+  box-shadow: 0 0 0 0.2rem rgba(123, 75, 131, 0.25);
+  background-color: #FFFFFF;
+  color: #7B4B83;
+}
+
+#formContacto .form-control::placeholder {
+  color: #7B4B83;
+}
+
+.contenedor-consulta {
+  background-color: #7B4B83;
+  color: #FFFFFF;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.contenedor-consulta h2 {
+  color: #FFFFFF !important;
+}
+
+.contenedor-sucursales {
+  background-color: #D4AF65;
+  color: #171717;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.boton-turno1 {
+    background-color: #ffffff !important;
+    color: #7B4B83 !important;
+    font-weight: 600 !important;
+    padding: 0.8rem 2.5rem !important;
+    border-radius: 30px !important;
+    border: none !important;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(123, 75, 131, 0.3);
+}
+
+.boton-turno1:hover {
+    background-color: #171717 !important;
+    color: #D4AF65 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(212, 175, 101, 0.4) !important;
+}
+
+.boton-turno1:active {
+    transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.titulo-productos {
+  color: #7B4B83;
+}
+
+.texto-productos {
+  color: #171717;
+}
+
+.tarjeta-producto {
+  border: 2px solid #D4AF65;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  transition: transform 0.3s ease;
+}
+
+.tarjeta-producto:hover {
+  transform: translateY(-5px);
+}
+
+.imagen-producto {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+  padding: 15px;
+  background-color: #FFFFFF;
+}
+
+.tarjeta-producto .card-title {
+  color: #7B4B83;
+}
+
+.tarjeta-producto .card-text {
+  color: #171717;
+}
+
+.precio-producto {
+  color: #7B4B83;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.tarjeta-producto .card-footer {
+  background-color: #171717;
+  border-top: 2px solid #D4AF65;
+  padding: 12px;
+}
+
+.boton-producto {
+  background-color: #D4AF65;
+  color: #171717;
+  border: none;
+}
+
+.boton-producto:hover {
+  background-color: #7B4B83;
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+.modal-servicios-content,
+#modalContacto .modal-content, 
+#modalCorreo .modal-content {
+  border: 2px solid #D4AF65;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  color: #171717;
+}
+
+.modal-servicios-content .modal-header,
+#modalContacto .modal-header, 
+#modalCorreo .modal-header {
+  background-color: #171717;
+  color: #FFFFFF;
+  border-bottom: 2px solid #D4AF65;
+  padding: 1.25rem 1.5rem;
+}
+
+.modal-servicios-content .modal-title,
+#modalContacto .modal-title, 
+#modalCorreo .modal-title {
+  color: #D4AF65;
+}
+
+.modal-servicios-content .btn-close,
+#modalContacto .btn-close,
+#modalCorreo .btn-close {
+  filter: invert(1);
+}
+
+.modal-servicios-content .modal-body,
+#modalContacto .modal-body,
+#modalCorreo .modal-body {
+  padding: 2rem 1.5rem;
+  background-color: #FFFFFF;
+  color: #171717;
+}
+
+.modal-servicios-content .modal-footer,
+#modalContacto .modal-footer, 
+#modalCorreo .modal-footer {
+  background-color: #D4AF65;
+  border-top: 1px solid #D4AF65;
+  justify-content: center;
+  padding: 1rem 1.5rem;
+}
+
+.modal-footer .btn {
+  background-color: #7B4B83;
+  color: #ffffff;
+  padding: 0.6rem 2rem;
+  border-radius: 30px;
+  border: none;
+}
+
+.modal-footer .btn:hover {
+  background-color: #171717;
+  color: #D4AF65;
+}
+
+
+
+
+
+
+body:has(.tarjeta-producto) {
+  background-color: #171717;
+  color: #FFFFFF;
+}
+
+body:has(.tarjeta-producto) main {
+  background-color: #171717;
+}
+
+body:has(.tarjeta-producto) .texto-productos {
+  color: #FFFFFF;
+}
+
+body:has(.tarjeta-producto) .tarjeta-producto {
+  background-color: #292629;
+  border: 2px solid #D4AF65;
+}
+
+body:has(.tarjeta-producto) .tarjeta-producto .card-text {
+  color: #FFFFFF;
+}
+
+body:has(.tarjeta-producto) .tarjeta-producto .card-title{
+  color: #D4AF65;
+}
+
+body:has(.tarjeta-producto) .imagen-producto {
+  background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Importación de fuentes institucionales */
+
+
+
+
+main {
+    flex: 1;
+}
+
+/* Títulos principales */
+h1, h2, h3, .titulo-productos {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+
+
+/* --- TÍTULO DE PRODUCTOS --- */
+.titulo-productos {
+  color: #D4AF65;
+  font-size: 48px;
+  text-align: center;
+}
+
+.texto-productos {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* --- TARJETAS DE PRODUCTOS --- */
+.tarjeta-producto {
+  background-color: #292629; /* Fondo interno de la tarjeta en oscuro */
+  border: 2px solid #D4AF65;   /* Borde dorado característico */
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.tarjeta-producto:hover {
+  transform: translateY(-5px);
+}
+
+.imagen-producto {
+  display: block;
+  width: 100%;
+  height: 280px;
+  object-fit: contain;
+  padding: 15px;
+  background-color: #292629;
+}
+
+.tarjeta-producto .card-body {
+  text-align: center;
+  padding: 15px;
+}
+
+/* Título de cada producto */
+.card-title2 {
+  background-color: #292629;
+  color: #D4AF65 !important;
+  font-size: 18px !important;
+  font-weight: 700;
+  margin-bottom: 10px !important;
+}
+
+.tarjeta-producto .card-text {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+/* Precios dorados */
+.precio-producto {
+  color: #D4AF65;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/* Pie de la tarjeta */
+.tarjeta-producto .card-footer {
+  background-color: #171717;
+  border-top: 2px solid #D4AF65;
+  padding: 12px;
+  text-align: center;
+}
+
+/* Botón "Consultar" */
+.boton-producto {
+  width: 196px;
+  height: 36px;
+  background-color: #D4AF65;
+  color: #171717;
+  border: none;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.boton-producto:hover {
+  background-color: #7B4B83;
+  color: #FFFFFF;
+}
+
+/* --- MODAL DE CONSULTAS --- */
+.modal-content {
+  border: 2px solid #D4AF65;
+  border-radius: 16px;
+  background-color: #ffffff;
+  color: #171717;
+}
+
+.modal-header {
+  background-color: #171717;
+  color: #FFFFFF;
+  border-bottom: 2px solid #D4AF65;
+}
+
+.modal-title {
+  color: #D4AF65;
+  font-weight: 700;
+}
+
+.modal-body {
+  background-color: #FFFFFF;
+  color: #171717;
+}
+
+.modal-footer {
+  background-color: #D4AF65;
+  border-top: none;
+  justify-content: center;
+}
+
+.modal-footer .btn {
+  background-color: #7B4B83;
+  color: #ffffff;
+  border-radius: 30px;
+  padding: 0.5rem 2rem;
+  border: none;
+}
+
+.modal-footer .btn:hover {
+  background-color: #171717;
+  color: #D4AF65;
+}
+
+/* --- FOOTER --- */
+footer {
+  background-color: #171717;
+  border-top: 1px solid #333;
+}
+
+.text-warning {
+  color: #7B4B83 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#pagina-contactos {
+    background-color: #FFFFFF;
+    color: #171717;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+#contenido-contactos {
+    width: 100%;
+}
+
+#pagina-contactos .encabezado-contactos {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 30px 0;
+}
+
+#pagina-contactos .titulo-contacto {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #171717;
+    margin-bottom: 10px;
+}
+
+#pagina-contactos .texto-intro-contacto {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #171717;
+    margin-bottom: 0;
+}
+
+
+#pagina-contactos .seccion-formulario {
+    width: 100%;
+    background-color: #7B4B83;
+    color: #FFFFFF;
+    padding: 30px 0;
+}
+
+#pagina-contactos .titulo-consulta {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+#pagina-contactos .form-label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+
+#pagina-contactos .form-control {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color: #171717;
+    padding: 7px 12px;
+}
+
+#pagina-contactos textarea.form-control {
+    border-radius: 10px;
+    resize: vertical;
+}
+
+#pagina-contactos .form-control:focus {
+    border-color: #D4AF65;
+    box-shadow: 0 0 0 0.2rem rgba(212, 175, 101, 0.25);
+}
+
+#pagina-contactos .boton-contacto {
+    width: 196px;
+    height: 36px;
+    padding: 0;
+    background-color: #D4AF65;
+    color: #171717;
+    border: none;
+    border-radius: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+body#pagina-contactos button.boton-contacto:hover {
+    background-color: #171717 !important;
+    color: #D4AF65 !important;
+}
+
+
+
+#pagina-contactos .seccion-sucursales-contacto {
+    width: 100%;
+    background-color: #D4AF65;
+    padding: 30px 0 40px;
+}
+
+#pagina-contactos .titulo-sucursales-contacto {
+    font-family: "Abril Fatface", serif;
+    font-size: 38px;
+    font-weight: 400;
+    color: #171717;
+    margin-bottom: 25px;
+}
+
+#pagina-contactos .tarjeta-sucursal {
+    border: 1px solid #171717;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+#pagina-contactos .tarjeta-sucursal iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#pagina-contactos .tarjeta-sucursal .card-body {
+    background-color: #FFFFFF;
+    padding: 12px;
+}
+
+#pagina-contactos .nombre-sucursal {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #171717;
+    margin-bottom: 8px;
+}
+
+#pagina-contactos .tarjeta-sucursal .card-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #171717;
+    margin-bottom: 0;
+}
+
+#pagina-contactos .tarjeta-sucursal .card-footer {
+    background-color: #171717;
+    color: #FFFFFF;
+    border-top: 1px solid #D4AF65;
+    padding: 8px;
+}
+
+#pagina-contactos .tarjeta-sucursal .bi-whatsapp {
+    color: #D4AF65;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#pagina-contactos .modal-content {
+    border: 2px solid #D4AF65;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#pagina-contactos .modal-header {
+    background-color: #171717;
+    color: #D4AF65;
+    border-bottom: 2px solid #D4AF65;
+}
+
+#pagina-contactos .modal-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #D4AF65;
+}
+
+#pagina-contactos .modal-body {
+    background-color: #FFFFFF;
+    color: #171717;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+#pagina-contactos .modal-footer {
+    background-color: #D4AF65;
+    border-top: none;
+}
+
+
+
+
+
+
+body#pagina-contactos button.boton-contacto {
+    width: 196px !important;
+    height: 36px !important;
+    background-color: #FFFFFF !important;
+    color: #7B4B83 !important;
+    border: none !important;
+    border-radius: 20px !important;
+}
+
+body#pagina-contactos .tarjeta-sucursal .card-footer {
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    text-align: right !important;
+    padding-right: 15px !important;
+}
+
