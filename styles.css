@@ -792,24 +792,24 @@ footer {
 
 
 
-#pagina-contactos {
+#pagina-contacto {
     background-color: #FFFFFF;
     color: #171717;
     font-family: "Montserrat", sans-serif;
     margin: 0;
 }
 
-#contenido-contactos {
+#contenido-contacto {
     width: 100%;
 }
 
-#pagina-contactos .encabezado-contactos {
+#pagina-contacto .encabezado-contacto {
     width: 100%;
     background-color: #FFFFFF;
     padding: 30px 0;
 }
 
-#pagina-contactos .titulo-contacto {
+#pagina-contacto .titulo-contacto {
     font-family: "Abril Fatface", serif;
     font-weight: 400;
     font-size: 40px;
@@ -817,7 +817,7 @@ footer {
     margin-bottom: 10px;
 }
 
-#pagina-contactos .texto-intro-contacto {
+#pagina-contacto .texto-intro-contacto {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -826,14 +826,14 @@ footer {
 }
 
 
-#pagina-contactos .seccion-formulario {
+#pagina-contacto .seccion-formulario {
     width: 100%;
     background-color: #7B4B83;
     color: #FFFFFF;
     padding: 30px 0;
 }
 
-#pagina-contactos .titulo-consulta {
+#pagina-contacto .titulo-consulta {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -841,7 +841,7 @@ footer {
     margin-bottom: 15px;
 }
 
-#pagina-contactos .form-label {
+#pagina-contacto .form-label {
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -849,7 +849,7 @@ footer {
     margin-bottom: 4px;
 }
 
-#pagina-contactos .form-control {
+#pagina-contacto .form-control {
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
     border: none;
@@ -859,17 +859,17 @@ footer {
     padding: 7px 12px;
 }
 
-#pagina-contactos textarea.form-control {
+#pagina-contacto textarea.form-control {
     border-radius: 10px;
     resize: vertical;
 }
 
-#pagina-contactos .form-control:focus {
+#pagina-contacto .form-control:focus {
     border-color: #D4AF65;
     box-shadow: 0 0 0 0.2rem rgba(212, 175, 101, 0.25);
 }
 
-#pagina-contactos .boton-contacto {
+#pagina-contacto .boton-contacto {
     width: 196px;
     height: 36px;
     padding: 0;
@@ -882,20 +882,20 @@ footer {
     font-weight: 600;
 }
 
-body#pagina-contactos button.boton-contacto:hover {
+body#pagina-contacto button.boton-contacto:hover {
     background-color: #171717 !important;
     color: #D4AF65 !important;
 }
 
 
 
-#pagina-contactos .seccion-sucursales-contacto {
+#pagina-contacto .seccion-sucursales-contacto {
     width: 100%;
     background-color: #D4AF65;
     padding: 30px 0 40px;
 }
 
-#pagina-contactos .titulo-sucursales-contacto {
+#pagina-contacto .titulo-sucursales-contacto {
     font-family: "Abril Fatface", serif;
     font-size: 38px;
     font-weight: 400;
@@ -903,24 +903,24 @@ body#pagina-contactos button.boton-contacto:hover {
     margin-bottom: 25px;
 }
 
-#pagina-contactos .tarjeta-sucursal {
+#pagina-contacto .tarjeta-sucursal {
     border: 1px solid #171717;
     border-radius: 8px;
     overflow: hidden;
     background-color: #FFFFFF;
 }
 
-#pagina-contactos .tarjeta-sucursal iframe {
+#pagina-contacto .tarjeta-sucursal iframe {
     width: 100%;
     height: 100%;
 }
 
-#pagina-contactos .tarjeta-sucursal .card-body {
+#pagina-contacto .tarjeta-sucursal .card-body {
     background-color: #FFFFFF;
     padding: 12px;
 }
 
-#pagina-contactos .nombre-sucursal {
+#pagina-contacto .nombre-sucursal {
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-weight: 700;
@@ -928,7 +928,7 @@ body#pagina-contactos button.boton-contacto:hover {
     margin-bottom: 8px;
 }
 
-#pagina-contactos .tarjeta-sucursal .card-text {
+#pagina-contacto .tarjeta-sucursal .card-text {
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -936,14 +936,14 @@ body#pagina-contactos button.boton-contacto:hover {
     margin-bottom: 0;
 }
 
-#pagina-contactos .tarjeta-sucursal .card-footer {
+#pagina-contacto .tarjeta-sucursal .card-footer {
     background-color: #171717;
     color: #FFFFFF;
     border-top: 1px solid #D4AF65;
     padding: 8px;
 }
 
-#pagina-contactos .tarjeta-sucursal .bi-whatsapp {
+#pagina-contacto .tarjeta-sucursal .bi-whatsapp {
     color: #D4AF65;
 }
 
@@ -965,33 +965,33 @@ body#pagina-contactos button.boton-contacto:hover {
 
 
 
-#pagina-contactos .modal-content {
+#pagina-contacto .modal-content {
     border: 2px solid #D4AF65;
     border-radius: 12px;
     overflow: hidden;
 }
 
-#pagina-contactos .modal-header {
+#pagina-contacto .modal-header {
     background-color: #171717;
     color: #D4AF65;
     border-bottom: 2px solid #D4AF65;
 }
 
-#pagina-contactos .modal-title {
+#pagina-contacto .modal-title {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 700;
     color: #D4AF65;
 }
 
-#pagina-contactos .modal-body {
+#pagina-contacto .modal-body {
     background-color: #FFFFFF;
     color: #171717;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
 }
 
-#pagina-contactos .modal-footer {
+#pagina-contacto .modal-footer {
     background-color: #D4AF65;
     border-top: none;
 }
@@ -1001,7 +1001,7 @@ body#pagina-contactos button.boton-contacto:hover {
 
 
 
-body#pagina-contactos button.boton-contacto {
+body#pagina-contacto button.boton-contacto {
     width: 196px !important;
     height: 36px !important;
     background-color: #FFFFFF !important;
@@ -1010,7 +1010,7 @@ body#pagina-contactos button.boton-contacto {
     border-radius: 20px !important;
 }
 
-body#pagina-contactos .tarjeta-sucursal .card-footer {
+body#pagina-contacto .tarjeta-sucursal .card-footer {
     display: flex !important;
     justify-content: flex-end !important;
     align-items: center !important;
