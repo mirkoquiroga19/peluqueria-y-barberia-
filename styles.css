@@ -289,7 +289,7 @@ font-family: "Abril Fatface", serif !important;
 
 
 main h1 {
-  color: #171717;
+  color: #171717 !important;
 }
 
 main form + h2,
