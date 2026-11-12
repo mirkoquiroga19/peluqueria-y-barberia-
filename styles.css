@@ -393,7 +393,7 @@ main h2 {
 
 
 .titulo-productos {
-  color: #7B4B83;
+  color: #7B4B83 !important;
 }
 
 .texto-productos {
