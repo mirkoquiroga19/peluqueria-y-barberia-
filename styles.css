@@ -135,6 +135,8 @@ footer {
 
 .fs-1 {
   color: #D4AF65 !important;
+font-family: "Abril Fatface", serif !important;
+    font-weight: 400 !important;
 }
 
 .fs-5.text-muted {
