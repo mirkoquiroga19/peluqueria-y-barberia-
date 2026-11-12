@@ -9,7 +9,7 @@ h1,
 h2,
 h3,
 .titulo-productos,
-.titulo-contacto,
+.titulo-Contacto,
 .txt-slider {
     font-family: "Abril Fatface", serif;
     font-weight: 400;
@@ -301,7 +301,7 @@ main h2 {
   color: #7B4B83;
 }
 
-.titulo-contacto {
+.titulo-Contacto {
   color: #D4AF65;
   text-align: center;
   margin-bottom: 10px;
@@ -792,24 +792,24 @@ footer {
 
 
 
-#pagina-contacto {
+#pagina-Contacto {
     background-color: #FFFFFF;
     color: #171717;
     font-family: "Montserrat", sans-serif;
     margin: 0;
 }
 
-#contenido-contacto {
+#contenido-Contacto {
     width: 100%;
 }
 
-#pagina-contacto .encabezado-contacto {
+#pagina-Contacto .encabezado-Contacto {
     width: 100%;
     background-color: #FFFFFF;
     padding: 30px 0;
 }
 
-#pagina-contacto .titulo-contacto {
+#pagina-Contacto .titulo-Contacto {
     font-family: "Abril Fatface", serif;
     font-weight: 400;
     font-size: 40px;
@@ -817,7 +817,7 @@ footer {
     margin-bottom: 10px;
 }
 
-#pagina-contacto .texto-intro-contacto {
+#pagina-Contacto .texto-intro-Contacto {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -826,14 +826,14 @@ footer {
 }
 
 
-#pagina-contacto .seccion-formulario {
+#pagina-Contacto .seccion-formulario {
     width: 100%;
     background-color: #7B4B83;
     color: #FFFFFF;
     padding: 30px 0;
 }
 
-#pagina-contacto .titulo-consulta {
+#pagina-Contacto .titulo-consulta {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -841,7 +841,7 @@ footer {
     margin-bottom: 15px;
 }
 
-#pagina-contacto .form-label {
+#pagina-Contacto .form-label {
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -849,7 +849,7 @@ footer {
     margin-bottom: 4px;
 }
 
-#pagina-contacto .form-control {
+#pagina-Contacto .form-control {
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
     border: none;
@@ -859,17 +859,17 @@ footer {
     padding: 7px 12px;
 }
 
-#pagina-contacto textarea.form-control {
+#pagina-Contacto textarea.form-control {
     border-radius: 10px;
     resize: vertical;
 }
 
-#pagina-contacto .form-control:focus {
+#pagina-Contacto .form-control:focus {
     border-color: #D4AF65;
     box-shadow: 0 0 0 0.2rem rgba(212, 175, 101, 0.25);
 }
 
-#pagina-contacto .boton-contacto {
+#pagina-Contacto .boton-Contacto {
     width: 196px;
     height: 36px;
     padding: 0;
@@ -882,20 +882,20 @@ footer {
     font-weight: 600;
 }
 
-body#pagina-contacto button.boton-contacto:hover {
+body#pagina-Contacto button.boton-Contacto:hover {
     background-color: #171717 !important;
     color: #D4AF65 !important;
 }
 
 
 
-#pagina-contacto .seccion-sucursales-contacto {
+#pagina-Contacto .seccion-sucursales-Contacto {
     width: 100%;
     background-color: #D4AF65;
     padding: 30px 0 40px;
 }
 
-#pagina-contacto .titulo-sucursales-contacto {
+#pagina-Contacto .titulo-sucursales-Contacto {
     font-family: "Abril Fatface", serif;
     font-size: 38px;
     font-weight: 400;
@@ -903,24 +903,24 @@ body#pagina-contacto button.boton-contacto:hover {
     margin-bottom: 25px;
 }
 
-#pagina-contacto .tarjeta-sucursal {
+#pagina-Contacto .tarjeta-sucursal {
     border: 1px solid #171717;
     border-radius: 8px;
     overflow: hidden;
     background-color: #FFFFFF;
 }
 
-#pagina-contacto .tarjeta-sucursal iframe {
+#pagina-Contacto .tarjeta-sucursal iframe {
     width: 100%;
     height: 100%;
 }
 
-#pagina-contacto .tarjeta-sucursal .card-body {
+#pagina-Contacto .tarjeta-sucursal .card-body {
     background-color: #FFFFFF;
     padding: 12px;
 }
 
-#pagina-contacto .nombre-sucursal {
+#pagina-Contacto .nombre-sucursal {
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-weight: 700;
@@ -928,7 +928,7 @@ body#pagina-contacto button.boton-contacto:hover {
     margin-bottom: 8px;
 }
 
-#pagina-contacto .tarjeta-sucursal .card-text {
+#pagina-Contacto .tarjeta-sucursal .card-text {
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -936,14 +936,14 @@ body#pagina-contacto button.boton-contacto:hover {
     margin-bottom: 0;
 }
 
-#pagina-contacto .tarjeta-sucursal .card-footer {
+#pagina-Contacto .tarjeta-sucursal .card-footer {
     background-color: #171717;
     color: #FFFFFF;
     border-top: 1px solid #D4AF65;
     padding: 8px;
 }
 
-#pagina-contacto .tarjeta-sucursal .bi-whatsapp {
+#pagina-Contacto .tarjeta-sucursal .bi-whatsapp {
     color: #D4AF65;
 }
 
@@ -965,33 +965,33 @@ body#pagina-contacto button.boton-contacto:hover {
 
 
 
-#pagina-contacto .modal-content {
+#pagina-Contacto .modal-content {
     border: 2px solid #D4AF65;
     border-radius: 12px;
     overflow: hidden;
 }
 
-#pagina-contacto .modal-header {
+#pagina-Contacto .modal-header {
     background-color: #171717;
     color: #D4AF65;
     border-bottom: 2px solid #D4AF65;
 }
 
-#pagina-contacto .modal-title {
+#pagina-Contacto .modal-title {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 700;
     color: #D4AF65;
 }
 
-#pagina-contacto .modal-body {
+#pagina-Contacto .modal-body {
     background-color: #FFFFFF;
     color: #171717;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
 }
 
-#pagina-contacto .modal-footer {
+#pagina-Contacto .modal-footer {
     background-color: #D4AF65;
     border-top: none;
 }
@@ -1001,7 +1001,7 @@ body#pagina-contacto button.boton-contacto:hover {
 
 
 
-body#pagina-contacto button.boton-contacto {
+body#pagina-Contacto button.boton-Contacto {
     width: 196px !important;
     height: 36px !important;
     background-color: #FFFFFF !important;
@@ -1010,7 +1010,7 @@ body#pagina-contacto button.boton-contacto {
     border-radius: 20px !important;
 }
 
-body#pagina-contacto .tarjeta-sucursal .card-footer {
+body#pagina-Contacto .tarjeta-sucursal .card-footer {
     display: flex !important;
     justify-content: flex-end !important;
     align-items: center !important;
@@ -1027,7 +1027,7 @@ h1,
 h2,
 h3,
 .titulo-productos,
-.titulo-contacto,
+.titulo-Contacto,
 .txt-slider,
 .titulo-inicio {
     font-family: "Abril Fatface", serif;
